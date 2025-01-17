@@ -11,7 +11,7 @@ enum class Grade {
     Mythic
 };
 
-class Weapon {
+class Weapon{
 private:
     Grade grade;
     std::string name;

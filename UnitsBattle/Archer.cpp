@@ -1,6 +1,6 @@
 #include "Archer.h"
 
-Archer::Archer(std::string name, int HP, unsigned int arrows) : Unit(name, HP), arrows(arrows) {}
+Archer::Archer(std::string name, float HP, unsigned int arrows) : Unit(name, HP), arrows(arrows) {}
 
 void Archer::Attack(Unit& target) {
     // Archer attack logic
@@ -10,4 +10,9 @@ void Archer::Attack(Unit& target) {
 void Archer::Defense() {
     // Archer defense logic
 
+}
+
+void Archer::TakeDamage(int value) {
+    // Archer specific damage handling
+    Unit::TakeDamage(value);
 }

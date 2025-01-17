@@ -1,6 +1,7 @@
 #include"Unit.h"
 
 Unit::Unit(std::string name, int HP) : name(name), HP(HP), speed(1.0f) {}
+Unit::Unit(std::string name, int HP) : name(name), HP(HP), speed(1.0f) {}
 Unit::Unit(int HP) : HP(HP), speed(1.0f) {}
 Unit::Unit(std::string name) : name(name), HP(100), speed(1.0f) {}
 
