@@ -21,7 +21,7 @@ public:
     Weapon(Grade grade, std::string name);
     Weapon(std::string name);
     int GetDamage();
-    void UpGrade();
+    virtual void UpGrade();
 
 };
 

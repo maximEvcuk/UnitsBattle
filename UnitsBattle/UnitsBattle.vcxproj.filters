@@ -13,5 +13,72 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Unit class">
+      <UniqueIdentifier>{d98f22f7-8173-4ebe-9b7a-f594d5062262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit class">
+      <UniqueIdentifier>{6aa42ccc-7731-4bf5-8b13-678cfb4f2a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Weapon class">
+      <UniqueIdentifier>{69c7f708-41d6-41e5-9460-9de4e3c40a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Weapon class">
+      <UniqueIdentifier>{c3e3479d-3f90-4eb2-b908-707d3c0c8998}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Swordman.h">
+      <Filter>Header Files\Unit class</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>Header Files\Unit class</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage.h">
+      <Filter>Header Files\Unit class</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Header Files\Weapon class</Filter>
+    </ClInclude>
+    <ClInclude Include="Bow.h">
+      <Filter>Header Files\Weapon class</Filter>
+    </ClInclude>
+    <ClInclude Include="Stick.h">
+      <Filter>Header Files\Weapon class</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Swordman.cpp">
+      <Filter>Source Files\Unit class</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>Source Files\Unit class</Filter>
+    </ClCompile>
+    <ClCompile Include="Mage.cpp">
+      <Filter>Source Files\Unit class</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>Source Files\Weapon class</Filter>
+    </ClCompile>
+    <ClCompile Include="Bow.cpp">
+      <Filter>Source Files\Weapon class</Filter>
+    </ClCompile>
+    <ClCompile Include="Stick.cpp">
+      <Filter>Source Files\Weapon class</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

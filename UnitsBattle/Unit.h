@@ -13,11 +13,11 @@ private:
 	std::string name;
 
 public:
-	Unit(std::string name, int HP);
+    Unit(std::string name, int HP);
 	Unit(int HP);
 	Unit(std::string name);
-	void Attack(Unit& target);
-	void Defense();
+	virtual void Attack(Unit& target);
+	virtual void Defense();
 	friend std::ostream& operator<<(std::ostream os, const Unit& unit);
 };
 

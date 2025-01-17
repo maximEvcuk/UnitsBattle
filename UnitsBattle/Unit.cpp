@@ -2,7 +2,7 @@
 
 Unit::Unit(std::string name, int HP) : name(name), HP(HP), speed(1.0f) {}
 Unit::Unit(int HP) : HP(HP), speed(1.0f) {}
-Unit::Unit(std::string name) : name(name), HP(HP), speed(1.0f) {}
+Unit::Unit(std::string name) : name(name), HP(100), speed(1.0f) {}
 
 void Unit::Attack(Unit& target) {
 	//Attack logic
