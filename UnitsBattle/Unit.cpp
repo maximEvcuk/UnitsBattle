@@ -12,6 +12,12 @@ void Unit::Defense() {
 	//Defense logic
 }
 
+void Unit::TakeDamage(int value) {
+	if (value > 0){
+		HP -= value;
+	}
+}
+
 std::ostream& operator<<(std::ostream os, const Unit& unit) {
 	os << "Unit: " << unit.name << ", HP: " << unit.HP;
 	return os;

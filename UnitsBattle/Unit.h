@@ -7,7 +7,7 @@
 
 class Unit {
 private:
-	int HP;
+	float HP;
 	Weapon weapon;
 	float speed;
 	std::string name;
@@ -18,6 +18,7 @@ public:
 	Unit(std::string name);
 	virtual void Attack(Unit& target);
 	virtual void Defense();
+	virtual void TakeDamage(int value);
 	friend std::ostream& operator<<(std::ostream os, const Unit& unit);
 };
 
